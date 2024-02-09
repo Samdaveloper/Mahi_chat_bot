@@ -49,7 +49,7 @@ async def start(client, message):
         
     else:
         buttons = [[
-            
+            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true") 
         ]
         ]
         video = "https://telegra.ph/file/d8869bcc0797248090105.jpg"
